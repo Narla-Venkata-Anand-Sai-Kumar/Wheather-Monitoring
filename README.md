@@ -26,23 +26,6 @@ This web application monitors real-time weather conditions for various metro cit
 - Can be expanded to handle weather forecast summaries from OpenWeatherMap.
 - Includes user-configurable threshold alerting for weather conditions.
 
-## Project Structure
-
-bash
-weather-monitoring/
-│
-├── app.py                 # Main application file (Flask backend)
-├── weather.py             # Script to fetch data from OpenWeatherMap API
-├── database.py            # Initializes the SQLite database and schema
-├── models.py              # Defines SQLAlchemy models for the weather data
-├── static/                # Contains static files like CSS, JS
-│   └── style.css          # Custom styles (if any)
-├── templates/             # HTML templates for rendering the web UI
-│   └── index.html         # Main template for displaying weather summaries
-├── requirements.txt       # Python package dependencies
-└── README.md              # Project documentation
-
-
 ## Prerequisites
 
 Before setting up the project, ensure you have the following installed:
